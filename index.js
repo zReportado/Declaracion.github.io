@@ -1,7 +1,7 @@
 const yesBtn = document.querySelector('#yesBtn');
 
 yesBtn.addEventListener('click',function () {
-    alert('Gracias Ya Lo esperaba TKM <3')
+    alert('Gracias Profa Se Gano una Caguama <3')
 });
 
 const noBtn = document.querySelector('#noBtn');
@@ -13,3 +13,4 @@ noBtn.addEventListener('mouseover', function () {
     noBtn.style.setProperty('left',randomX+'%');
     noBtn.style.setProperty('transform',`translate(-${randomX}%,-${randomY}%)`);
 })
+
